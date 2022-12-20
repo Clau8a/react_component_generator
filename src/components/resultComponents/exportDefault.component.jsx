@@ -3,8 +3,8 @@ import React from "react";
 const ExportDefault = ({ componentName }) => {
   return (
     <label>
-      {`export default xd`}
-      <b>{componentName}</b>;
+      <span className="reservedWord">export default</span>
+      <b> {componentName}</b>;
     </label>
   );
 };

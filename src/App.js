@@ -1,19 +1,22 @@
 import React from "react";
 import NavBar from "./components/navbar/navbar";
-import Form from "./components/form/form";
+import Form from "./components/form/form.component";
+import { reducer, initialState } from './helpers/constants'
 import "./App.css";
+import ComponentCard from "./components/resultComponents/componentCard.component";
+import Header from "./components/common/header.component";
 
 function App() {
+  const [state, dispatch] = React.useReducer(reducer, initialState);
   return (
     <div>
       <NavBar />
       <div className="container">
-        <div style={{ margin: "1em 0" }}>
-          <h2>React component Generator</h2>
+        <Header />
+        <div className="wrapper">
+          <Form state={state} dispatch={dispatch} />
+          <ComponentCard state={state} />
         </div>
-        <Form />
-        {/* separar los componentes de form en dos */}
-        {/* migrar el reducer a estya parte */}
       </div>
     </div>
   );
