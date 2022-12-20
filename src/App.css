@@ -1,9 +1,9 @@
 
-.compilado{
+.compiled {
   font-family: Consolas, 'Courier New', monospace;
 }
 
-.compilado label{
+.compiled label{
   display: block;
   margin-bottom: 0;
 }
@@ -13,3 +13,23 @@
   margin-bottom: .5em;
 }
 
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.wrapper .form{
+
+  width: 50%;
+}
+
+.reservedWord{
+  font-weight: bold;
+  color:darkmagenta
+}
+
+.string{
+  color:darkcyan;
+}
