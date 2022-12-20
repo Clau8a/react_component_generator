@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react_component_generator/static/css/main.64459586.chunk.css",
+    "main.js": "/react_component_generator/static/js/main.feb70a6f.chunk.js",
+    "main.js.map": "/react_component_generator/static/js/main.feb70a6f.chunk.js.map",
+    "runtime-main.js": "/react_component_generator/static/js/runtime-main.bfca3020.js",
+    "runtime-main.js.map": "/react_component_generator/static/js/runtime-main.bfca3020.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/react_component_generator/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.79649226.chunk.js": "/react_component_generator/static/js/2.79649226.chunk.js",
+    "static/js/2.79649226.chunk.js.map": "/react_component_generator/static/js/2.79649226.chunk.js.map",
+    "index.html": "/react_component_generator/index.html",
+    "precache-manifest.bac9c0eab8119d30636be9fc72555ba6.js": "/react_component_generator/precache-manifest.bac9c0eab8119d30636be9fc72555ba6.js",
+    "service-worker.js": "/react_component_generator/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/react_component_generator/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.64459586.chunk.css.map": "/react_component_generator/static/css/main.64459586.chunk.css.map",
+    "static/js/2.79649226.chunk.js.LICENSE.txt": "/react_component_generator/static/js/2.79649226.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfca3020.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.79649226.chunk.js",
+    "static/css/main.64459586.chunk.css",
+    "static/js/main.feb70a6f.chunk.js"
+  ]
+}
